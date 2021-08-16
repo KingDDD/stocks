@@ -20,7 +20,6 @@ MY_BXMT = {'buyPrice': '31.93', 'buyDate': '07/02/2021',
 def figure(ticker, position):
     stock = ticker
     my_pos = position
-
     current_stock = {}
 
     stock_name = stock.info['longName']
