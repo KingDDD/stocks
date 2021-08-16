@@ -91,6 +91,7 @@ class Big_Brain():
                                  my_position['buyDate'],
                                  today)
         data['Adj Close'].plot()
+        plt.title(stock.info['symbol'])
         plt.show()
 
 
